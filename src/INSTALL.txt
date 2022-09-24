@@ -1,0 +1,28 @@
+(************************************************************
+   Update OPAM with 
+   $ opam update 
+   and upgrade already installed packages with 
+   $ opam upgrade
+   and then install the package
+   $ opam install ANSITerminal
+   in order to run the text user interface.
+
+  Load a new terminal window.
+  Cd into the directory of your choice. 
+  Unzip "Final-Project.zip" within this directory. 
+  Run "make play".
+  You will be prompted with "Welcome to our word guessing game! 
+  Please enter the name of the level you want to load". 
+  Type "level0", "level1", or "level2" and hit enter to play the corresponding 
+  level of the OWordl game. In level0, the user must guess a 4-letter word. 
+  In level1, the user must guess a 5-letter word. In level2, the user must guess 
+  a 6-letter word. 
+  To play a word, type "play" followed by a space and your guess. Then, hit 
+  enter. The letters in your guess that belonged to the mystery word but 
+  were in the wrong position are highlighted in yellow in both the current row 
+  of the display matrix and keyboard. Those that are in the right position in 
+  the mystery word are highlighted in green. The letters that are not in 
+  the mystery word at all are highlighted red. Once all the letters
+  are green before the six alloted guesses are up, you win. Otherwise, you lose.
+  
+ ************************************************************)
